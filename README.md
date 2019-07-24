@@ -3,7 +3,7 @@
 This is the source code of the paper. We mainly use Tenosorflow to build model and use some functions of Keras.
 
 ## Dataset
-Before training, you need get all HSI datasets by running download_hsi.py. Or you can download IN, KSC and SS dataset at here [here](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes)
+Before training, you need get all HSI datasets. You can get IN, KSC and dataset by [download_datasets](https://github.com/shuguang-52/FDSSC/blob/master/download_datasets.py). Or you can download IN, KSC and SS dataset at here [here](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes)
 
 ## Setup
 + Python 3.5
