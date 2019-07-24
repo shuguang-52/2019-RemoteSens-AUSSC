@@ -6,7 +6,6 @@ import tensorflow as tf
 def bn_relu(input_layer, is_train):
     next_layer = tf.contrib.layers.batch_norm(input_layer, scale=True, is_training=is_train,
                                               updates_collections=None)
-
     next_layer = tf.nn.relu(next_layer)
     return next_layer
 

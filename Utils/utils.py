@@ -3,13 +3,6 @@ from keras.layers.normalization import BatchNormalization
 from keras.layers.advanced_activations import PReLU, LeakyReLU, ELU, ThresholdedReLU
 
 
-def bn_prelu(input, axis):
-    norm = BatchNormalization(axis=axis)(input)
-    # return Activation("relu")(norm)
-    return PReLU()(norm)
-    # return ELU(alpha=1.0)(norm)
-
-
 def bias_var(out_channels, init_method):
     initial_value = tf.constant(0.0, shape=[out_channels])
     biases = tf.Variable(initial_value)
