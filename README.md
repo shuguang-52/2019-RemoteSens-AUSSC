@@ -2,6 +2,7 @@
 # Alternately Updated Convolutional Spectral-Spatial Network for Hyperspectral Image Classification
 This is the source code of the paper. We mainly use Tenosorflow to build model.
 
+<img src='classification_maps/Graphical Abstract.png'>
 Fig 1. Graphic Abstract
 
 ## Setup
@@ -34,7 +35,7 @@ Although I can't provide this data set, I can provide some help when you get to 
 
 ## Classification Result
 
-
+<img src='classification_maps/hs.png'>
 Fig 2. The classification map of Houston dataset
 
 ## Misc.
