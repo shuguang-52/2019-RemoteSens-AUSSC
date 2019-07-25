@@ -54,6 +54,7 @@ Although I can't provide this data set, I can provide some help when you have go
 
 Fig 2. Classification results obtained from the Houston data set using different methods. (a) Ground-truth map. (b) SAE-LR. (c) CNN. (d) SSRN. (e) FDSSC. (f) AUSSC.
 </div>
+
 ## Misc.
 Code has been tested under:
 
