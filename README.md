@@ -11,7 +11,7 @@ Fig 1. Graphic Abstract
 To install it and related development package, type:
 
     pip install numpy scipy matplotlib scikit-learn scikit-image requests
-    pip install tensorflow-gpu==1.11.0 keras==2.2.2
+    pip install tensorflow-gpu==1.11.0
 
 You can get more information about installing python and tensorflow-gpu at [here](https://github.com/shuguang-52/FDSSC)
     
