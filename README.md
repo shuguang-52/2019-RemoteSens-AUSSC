@@ -1,6 +1,6 @@
 
 # Alternately Updated Convolutional Spectral-Spatial Network for Hyperspectral Image Classification
-This is the source code of the paper. The Tenosorflow is used to build model.
+This is the source code of the paper. The Tenosorflow framework is used to build model.
 
 <div align=center> 
  
@@ -48,10 +48,12 @@ Although I can't provide this data set, I can provide some help when you have go
 2) Run the "get\_color\_maps.py", for creating the clasification map. You also need type the name of HSI dataset and the time series number of model. And you will get the result in .mat format and classification maps.
 
 ## Classification Result
-
+<div align=center> 
+ 
 <img src='classification_maps/hs.png'>
-Fig 2. Classification results obtained from the Houston data set using different methods. (a) Ground-truth map. (b) SAE-LR. (c) CNN. (d) SSRN. (e) FDSSC. (f) AUSSC.
 
+Fig 2. Classification results obtained from the Houston data set using different methods. (a) Ground-truth map. (b) SAE-LR. (c) CNN. (d) SSRN. (e) FDSSC. (f) AUSSC.
+</div>
 ## Misc.
 Code has been tested under:
 
