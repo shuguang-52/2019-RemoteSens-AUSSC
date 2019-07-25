@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn import metrics, preprocessing
 from Utils import aucn_model, record, extract_samll_cubic
 import tensorflow as tf
-from keras.utils.np_utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 
 
 def sampling(proportion, ground_truth):
