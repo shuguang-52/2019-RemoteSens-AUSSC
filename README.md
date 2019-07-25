@@ -2,9 +2,6 @@
 # Alternately Updated Convolutional Spectral-Spatial Network for Hyperspectral Image Classification
 This is the source code of the paper. We mainly use Tenosorflow to build model and use some functions of Keras.
 
-## Dataset
-Before training, you need get all HSI datasets. You can get IN, KSC and dataset by [download_datasets.py](https://github.com/shuguang-52/FDSSC/blob/master/download_datasets.py). Or you can download IN, KSC and SS dataset at here [here](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes)
-
 ## Setup
 + Python 3.5
 + Tensorflow-gpu 1.11.0
@@ -15,6 +12,19 @@ To install it and related development package, type:
 
     pip install numpy scipy matplotlib scikit-learn scikit-image requests
     pip install tensorflow-gpu==1.11.0 keras==2.2.2
+
+You can get more information about installing python and tensorflow-gpu at [here](https://github.com/shuguang-52/FDSSC)
+    
+## Dataset
+Before training, you need get HSI datasets. 
+
+### IN, KSC and SS dataset
+You can get IN, KSC and SS dataset by [download_datasets.py](https://github.com/shuguang-52/FDSSC/blob/master/download_datasets.py). Or you can download IN, KSC and SS dataset at here [here](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes)
+
+### Houston dataset
+
+
+
    
 ## Reproducing the results
 1) Run the "train.py". You need type the name of HSI dataset. Model are saved in ./models file.
