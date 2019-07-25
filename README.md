@@ -5,6 +5,14 @@ This is the source code of the paper. The Tenosorflow is used to build model.
 <img src='classification_maps/Graphical Abstract.png'>
 Fig 1. Graphic Abstract
 
+## Citation
+If you find AUSSC useful in your research, please consider citing.
+
+Chicago/Turabian Style:
+
+Wang, Wenju; Dou, Shuguang; Jiang, Zhongmin; Sun, Liujie.	2018. "A Fast Dense Spectral–Spatial Convolution Network Framework for Hyperspectral Images Classification." Remote Sens. 10, no. 7: 1068.
+
+
 ## Setup
 + Python 3.5+
 + Tensorflow-gpu 1.11.0
