@@ -1,14 +1,12 @@
 
 # Alternately Updated Convolutional Spectral-Spatial Network for Hyperspectral Image Classification
-This is the source code of the paper. We mainly use Tenosorflow to build model and use some functions of Keras.
+This is the source code of the paper. We mainly use Tenosorflow to build model.
 
 Fig 1. Graphic Abstract
 
 ## Setup
-+ Python 3.5
++ Python 3.5+
 + Tensorflow-gpu 1.11.0
-+ Keras 2.2.2
-
 
 To install it and related development package, type:
 
