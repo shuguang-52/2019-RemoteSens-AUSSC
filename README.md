@@ -33,7 +33,7 @@ You can get IN, KSC and SS dataset by [download_datasets.py](https://github.com/
 ### Houston dataset
 The Houston dataset is provide by the Hyperspectral Image Analysis group and the NSF Funded Center for Airborne Laser Mapping (NCALM) at the University of Houston. The data sets was orginally used for the scientific purposes of the 2013 IEEE GRSS Data Fusion Contest. According to the [terms and conditions](http://hyperspectral.ee.uh.edu/xeadh4f2dftc13/copyright.txt), I cannot distribute the dataset to others. The dataset can be downloaded [here](http://hyperspectral.ee.uh.edu/?page_id=459) subject to the terms and conditions. 
 
-Although I can't provide this data set, I can provide some help when you get to the original data set. The geotif2mat.py can converts the original .tif file to the .mat file. After converting to the .mat file, you can use the train.py to train the Houston dataset. The GDAL(Geospatial Data Abstraction Library) is a translator library for raster geospatial data formats. To run the geotif2mat.py, you need download the GDAL at [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal) and type:
+Although I can't provide this data set, I can provide some help when you have got the original data set. The geotif2mat.py can converts the original .tif file to the .mat file. After converting to the .mat file, you can use the train.py to train the Houston dataset. The GDAL(Geospatial Data Abstraction Library) is a translator library for raster geospatial data formats. To run the geotif2mat.py, you need download the GDAL at [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal) and type:
 
      pip install GDAL‑3.0.1‑cp35‑cp35m‑win_amd64.whl
 
