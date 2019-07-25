@@ -2,9 +2,9 @@
 # Alternately Updated Convolutional Spectral-Spatial Network for Hyperspectral Image Classification
 This is the source code of the paper. The Tenosorflow is used to build model.
 
-<img src='classification_maps/Graphical Abstract.png'>
+<div align=center> <img src='classification_maps/Graphical Abstract.png'>
 Fig 1. Graphic Abstract
-
+ </div>
 ## Citation
 If you find AUSSC useful in your research, please consider citing.
 
