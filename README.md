@@ -46,7 +46,7 @@ Although I can't provide this data set, I can provide some help when you have go
 ## Classification Result
 
 <img src='classification_maps/hs.png'>
-Fig 2. The classification map of Houston dataset
+Fig 2. Classification results obtained from the Houston data set using different methods. (a) Ground-truth map. (b) SAE-LR. (c) CNN. (d) SSRN. (e) FDSSC. (f) AUSSC.
 
 ## Misc.
 Code has been tested under:
