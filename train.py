@@ -8,7 +8,7 @@ from sklearn import metrics, preprocessing
 from operator import truediv
 from Utils import aucn_model, record, extract_samll_cubic
 import tensorflow as tf
-from tf.keras.utils.np_utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 import h5py
 
 
