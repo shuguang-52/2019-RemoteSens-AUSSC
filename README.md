@@ -47,7 +47,7 @@ Although I can't provide this data set, I can provide some help when you have go
    + For the Houston data set, the learning rate is 0.0003 and the patience is 20.
    + For other data sets, the learning rate is 0.0001 and the patience is 10.
 
-After runing the "train.py", you need type the name of HSI dataset. Model are saved in ./models file.
+   After runing the "train.py", you need type the name of HSI dataset. Model are saved in ./models file.
 
 2) Run the "get\_color\_maps.py", for creating the clasification map. You also need type the name of HSI dataset and the time series number of model. And you will get the result in .mat format and classification maps.
 
