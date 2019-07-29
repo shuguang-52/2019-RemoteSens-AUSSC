@@ -143,15 +143,7 @@ if Dataset == 'SS':
     data_hsi = Salinas['salinas_corrected']
     gt_hsi = gt_Salinas['salinas_gt']
     TOTAL_SIZE = 54129
-    VALIDATION_SPLIT = 0.996453  # 200：0.996453 400：  3200:
-
-if Dataset == 'UP':
-    uPavia = sio.loadmat('datasets/PaviaU.mat')
-    gt_uPavia = sio.loadmat('datasets/PaviaU_gt.mat')
-    data_hsi = uPavia['paviaU']
-    gt_hsi = gt_uPavia['paviaU_gt']
-    TOTAL_SIZE = 42776
-    VALIDATION_SPLIT = 0.995435
+    VALIDATION_SPLIT = 0.996453  # 200：0.996453 
 
 if Dataset == 'CHIKUSEI':
     uPavia = h5py.File('datasets/Chikusei.mat')
@@ -160,7 +152,7 @@ if Dataset == 'CHIKUSEI':
     gt_hsi = gt_uPavia['GT']
     gt_hsi = gt_hsi[0, 0]['gt']
     TRAIN_SIZE = 200
-    VALIDATION_SPLIT = 0.99754  # 0.99754
+    VALIDATION_SPLIT = 0.99754  # 200：0.99754
 
 if Dataset == 'HS':
     data_hsi = sio.loadmat('datasets/Houston.mat')
@@ -168,7 +160,7 @@ if Dataset == 'HS':
     data_hsi = data_hsi['Houston']
     gt_hsi = gt_uPavia['gt']
     TRAIN_SIZE = 200
-    VALIDATION_SPLIT = 0.9417  # 200：0.98873 400：0.9769 600: 0.9652 800:0.953455 1000: 0.9417
+    VALIDATION_SPLIT = 0.98873  # 200：0.98873 400：0.9769 600: 0.9652 800:0.953455 1000: 0.9417
 
 print(data_hsi.shape)
 data = data_hsi.reshape(np.prod(data_hsi.shape[:2]), np.prod(data_hsi.shape[2:]))
