@@ -1,6 +1,6 @@
 
 # Alternately Updated Convolutional Spectral-Spatial Network for Hyperspectral Image Classification
-This is the source code of the paper and the Tenosorflow framework is used to build model. At [here](), you can get more information about the paper.
+This is the source code of the [paper](https://www.mdpi.com/2072-4292/11/15/1794) and the Tenosorflow framework is used to build model. At [here](), you can get more information about the paper.
 
 <div align=center> 
  
@@ -14,7 +14,7 @@ If you find AUSSC useful in your research, please consider citing.
 
 Chicago/Turabian Style:
 
-Wang, Wenju; Dou, Shuguang; Jiang, Zhongmin; Sun, Liujie.	2018. "A Fast Dense Spectral–Spatial Convolution Network Framework for Hyperspectral Images Classification." Remote Sens. 10, no. 7: 1068.
+Wang, W.; Dou, S.; Wang, S. Alternately Updated Spectral–Spatial Convolution Network for the Classification of Hyperspectral Images. Remote Sens. 2019, 11, 1794.
 
 
 ## Setup
