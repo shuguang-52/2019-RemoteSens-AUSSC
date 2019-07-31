@@ -6,7 +6,7 @@ This is the source code of the [paper](https://www.mdpi.com/2072-4292/11/15/1794
  
  <img src='classification_maps/Graphical Abstract.png'>
  
-Fig 1. Graphic Abstract
+Figure 1. Graphic Abstract
 </div>
  
 ## Citation
@@ -56,7 +56,7 @@ Although I can't provide this data set, I can provide some help when you have go
  
 <img src='classification_maps/hs.png'>
 
-Fig 2. Classification results obtained from the Houston data set using different methods. (a) Ground-truth map. (b) SAE-LR. (c) CNN. (d) SSRN. (e) FDSSC. (f) AUSSC.
+Figure 2. Classification results obtained from the Houston data set using different methods. (a) Ground-truth map. (b) SAE-LR. (c) CNN. (d) SSRN. (e) FDSSC. (f) AUSSC.
 </div>
 
 ## Misc.
