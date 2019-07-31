@@ -1,6 +1,6 @@
 
 # Alternately Updated Convolutional Spectral-Spatial Network for Hyperspectral Image Classification
-This is the source code of the [paper](https://www.mdpi.com/2072-4292/11/15/1794) and the Tenosorflow framework is used to build model. At [here](), you can get more information about the paper.
+This is the source code of the [paper](https://www.mdpi.com/2072-4292/11/15/1794) and the Tenosorflow framework is used to build model. At [here](https://shuguang-52.github.io/aussc/), you can get more information about the paper.
 
 <div align=center> 
  
