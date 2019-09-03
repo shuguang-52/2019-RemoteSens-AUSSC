@@ -57,7 +57,12 @@ The following is the specific operation of extracting the required labels from R
 3. Open 2013_IEEE_GRSS_DF_Contest_Samples_VA.roi with ENVI, select associate raster of the classic ROIs.
 
 <img src='classification_maps/HS_3.png'>
-   
+
+4. Click 'Region of Interest (ROI) Tool' ->Options ->Create Classification Images form ROIs->Select ALL Items. 
+
+<img src='classification_maps/HS_4.png'>
+
+
 ## Reproducing the results
 1) Before you run the "train.py", you need to set different hyperparameters for different data sets. 
    + For the Houston data set, the learning rate is 0.0003 and the patience is 20.
