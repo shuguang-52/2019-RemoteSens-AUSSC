@@ -62,7 +62,7 @@ The following is the specific operation of extracting the required labels from R
 
 For ROI Class Value Assignments, we need change 'railway ->Class Value 26' to 'railway ->Class Value 11'. (The reason of the operation is: The pseudo-color of Class 11 (railway) is black and the background is also black. After converting it into classification image, ENVI will convert Class 11 (railway) of training set and test set into two different pseudo-colors, but other pseudo-colors will be consistent with '2013_IEEE_GRSS_DF_Contest_Samples_TR.txt'. ) 
 
-Finally, you can get the Houston_gt.tif file.
+You can output the result as 'Houston_gt.tif'.
 
 <img src='classification_maps/HS_4.png'>
 
