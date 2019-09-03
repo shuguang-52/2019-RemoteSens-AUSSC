@@ -46,12 +46,17 @@ To get the Houston_gt.mat, you need the software-[ENVI](http://www.harrisgeospat
 
 The following is the specific operation of extracting the required labels from ROI files using ENVI:
 
-1. Open 2013_IEEE_GRSS_DF_Contest_CASI.tif with ENVI. You can get the following image:
+1. Open 2013_IEEE_GRSS_DF_Contest_CASI.tif with ENVI. 
 
+<img src='classification_maps/hs_1.png'>
 
+2. Open 2013_IEEE_GRSS_DF_Contest_Samples_TR.roi with ENVI, select associate raster of the classic ROIs.
 
-2. Open Tran.roi with ENVI, select associate raster of the classic ROIs and select upper middle tif.
+<img src='classification_maps/hs_2.png'>
 
+3. Open 2013_IEEE_GRSS_DF_Contest_Samples_VA.roi with ENVI, select associate raster of the classic ROIs.
+
+<img src='classification_maps/hs_3.png'>
    
 ## Reproducing the results
 1) Before you run the "train.py", you need to set different hyperparameters for different data sets. 
