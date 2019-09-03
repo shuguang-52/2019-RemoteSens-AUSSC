@@ -40,6 +40,17 @@ The Houston dataset is provide by the Hyperspectral Image Analysis group and the
 Although I can't provide this data set, I can provide some help when you have got the original data set. The geotif2mat.py can converts the original .tif file to the .mat file. After converting to the .mat file, you can use the train.py to train the Houston dataset. The GDAL(Geospatial Data Abstraction Library) is a translator library for raster geospatial data formats. To run the geotif2mat.py, you need download the GDAL at [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal) and type:
 
      pip install GDAL‑3.0.1‑cp35‑cp35m‑win_amd64.whl
+     
+### Houston Ground Truth
+To get the Houston_gt.mat, you need the software-[ENVI](http://www.harrisgeospatial.com/docs/using_envi_Home.html). 
+
+The following is the specific operation of extracting the required labels from ROI files using ENVI:
+
+1. Open 2013_IEEE_GRSS_DF_Contest_CASI.tif with ENVI. You can get the following image:
+
+
+
+2. Open Tran.roi with ENVI, select associate raster of the classic ROIs and select upper middle tif.
 
    
 ## Reproducing the results
