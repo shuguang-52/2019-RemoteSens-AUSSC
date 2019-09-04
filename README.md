@@ -60,7 +60,7 @@ The following is the specific operation of extracting the required labels from R
 
 4. Click 'Region of Interest (ROI) Tool' ->Options ->Create Classification Images form ROIs->Select ALL Items. 
 
-For ROI Class Value Assignments, we need change 'railway ->Class Value 26' to 'railway ->Class Value 11'. (The reason of the operation is: The pseudo-color of Class 11 (railway) is black and the background is also black. After converting it into classification image, ENVI will convert Class 11 (railway) of training set and test set into two different pseudo-colors, but other pseudo-colors will be consistent with '2013_IEEE_GRSS_DF_Contest_Samples_TR.txt'. ) 
+For ROI Class Value Assignments, we need change 'railway ->Class Value 26' to 'railway ->Class Value 11'. (The reason of the operation is: The pseudo-color of Class 11 (railway) is black and the background is also black. After converting it into classification image, ENVI will convert Class 11 (railway) of training set and Class 26 (railway) of test set into two different pseudo-colors, but other pseudo-colors will be consistent with '2013_IEEE_GRSS_DF_Contest_Samples_TR.txt'. ) 
 
 You can output the result as 'Houston_gt.tif'.
 
